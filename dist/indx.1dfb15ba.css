@@ -1,0 +1,79 @@
+body {
+  color: #000;
+  font: 100% Helvetica, sans-serif;
+}
+
+body .sectionC {
+  border-style: dotted;
+  border-color: #000;
+  border-radius: .2cm;
+}
+
+body .container {
+  background-color: #000;
+  position: relative;
+}
+
+body .container .Left {
+  position: relative;
+  left: 40%;
+}
+
+body .container .Left .Welcome {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+body .Content {
+  color: #000;
+}
+
+body .headercomp {
+  background-color: #000;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+body .logoimg {
+  border-radius: 50%;
+  justify-content: left;
+  display: flex;
+  position: relative;
+  left: -13%;
+}
+
+body .ulNavbar {
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style-type: decimal;
+  display: flex;
+  position: relative;
+  top: 10%;
+  right: -16%;
+}
+
+body .ulNavbar li {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 2px;
+}
+
+body .ulNavbar .ResumeBox {
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+  border-radius: 10%;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+/*# sourceMappingURL=indx.1dfb15ba.css.map */

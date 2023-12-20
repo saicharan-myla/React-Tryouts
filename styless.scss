@@ -1,0 +1,89 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: black;
+
+
+
+
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+
+.sectionC{
+    border-style:dotted;
+    border-radius: 0.20cm;
+    border-color: black;
+}
+
+.container{
+    position: relative;
+    background-color: black ;
+
+.Left{
+    position: relative;
+    left: 40%;
+
+
+
+
+
+.Welcome{
+    font-weight: bolder;
+    font-size: xx-large;
+    font-weight: bolder;
+}    
+}
+
+}
+.Content{
+    color:$primary-color;
+}
+.headercomp{
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    top:0;
+    background-color: black;
+}
+
+.logoimg{
+    position: relative;
+    display: flex;
+    left: -13%;
+    border-radius: 50%;
+    justify-content: left;
+}
+
+.ulNavbar{
+    display: flex;
+    position: relative;
+    top: 10%;
+    right: -16%;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style-type: decimal;
+    padding-left : 10px;
+    padding-right: 10px;
+li{
+    padding: 2px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.ResumeBox{
+    border-radius: 1px;
+    color: black;
+    border-color: black;
+    background-color: white;
+    border-radius: 10%;
+    height: fit-content;
+    width: fit-content;
+}
+
+
+}
+
+} 
+
